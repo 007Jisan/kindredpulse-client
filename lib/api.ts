@@ -3,11 +3,11 @@ import { EventItem, JoinedEvent, User, EventDetailResponse } from './types';
 function getApiBaseUrl(): string {
   // 1. Explicit public URL if configured
   if (process.env.NEXT_PUBLIC_API_URL) {
-    return process.env.NEXT_PUBLIC_API_URL;
+    return process.env.NEXT_PUBLIC_API_URL.replace(/\/+$/, '');
   }
   // 2. Vercel internal service binding for server-side fetches
   if (process.env.INTERNAL_API_URL) {
-    return process.env.INTERNAL_API_URL;
+    return process.env.INTERNAL_API_URL.replace(/\/+$/, '');
   }
   // 3. Browser environment on Vercel (same-origin relative URL)
   if (typeof window !== 'undefined') {
