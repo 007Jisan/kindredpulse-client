@@ -1,6 +1,6 @@
 # KindredPulse — Community Social Development & Service Platform 🌍
 
-**Live Application URL**: [https://kindredpulse-client.vercel.app](https://kindredpulse-client.vercel.app)  
+**Live Application URL**: [https://kindredpulse-client.vercel.app](https://kindredpulse-client.vercel.app/)  
 *(Deployed on Vercel)*
 
 KindredPulse is a modern, community-driven social development event management platform where everyday citizens unite to initiate, organize, and participate in grassroots humanitarian and environmental service events across their local neighborhoods.
